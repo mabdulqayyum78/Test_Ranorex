@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.99s"
+		durationms="9991"
+		type="root"
+		rid="5558932ec6cf1f5"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="userx"
+		rxversion="10.6.0.0"
+		host="ANA-MAE-DESKTOP"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="10/05/2023 12:56:27 PM"
+		timestampiso="2023-05-10T09:56:27"
+		endtime="10/05/2023 12:56:37 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Element is not visible in the UI and thus click can't be perfomed.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.520"
+			timeRelativeToTestModuleStartTime="00:03.520"
+			timeWallClock="12:56:30"
+			time="00:03.520"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardFinanceAndOperations.PrimaryConductor.SystemAdministration' at 63;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']/form[@action='javascript:void(0)']/div[4]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[2]/?/?/span[@innertext='System administration']"
+				itempath="form[@action='javascript:void(0)']/div[4]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[2]/?/?/span[@innertext='System administration']"
+				fullname="DynoRepository.DashboardFinanceAndOperations.PrimaryConductor.SystemAdministration"
+				id="d0a115125a1f4c74a7f56e25df58fb14"
+				timeout="90000"
+				codefile="C:\Users\userx\Documents\Ranorex\RanorexStudio Projects\Dyno\Dyno\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.879"
+			timeRelativeToTestModuleStartTime="00:04.879"
+			timeWallClock="12:56:31"
+			time="00:04.879"
+			level="Warn"
+			category="Click"
+			errimg="images_Recordin_bd78ed83\Recordin_c6044d4c_rxlog.jpg"
+			errthumb="images_Recordin_bd78ed83\Recordin_c6044d4c_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\userx\Documents\Ranorex\RanorexStudio Projects\Dyno\Dyno\Recording1.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.524"
+			timeRelativeToTestModuleStartTime="00:05.524"
+			timeWallClock="12:56:32"
+			time="00:05.524"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardFinanceAndOperations.PrimaryConductor.AutoTile' at 89;75.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']/form[2]/div[5]/div/div[2]/div[2]/div/div/div[2]/div"
+				itempath="form[2]/div[5]/div/div[2]/div[2]/div/div/div[2]/div"
+				fullname="DynoRepository.DashboardFinanceAndOperations.PrimaryConductor.AutoTile"
+				id="b7173c580d3341f3bfcdd9e94c5ad35a"
+				timeout="90000"
+				codefile="C:\Users\userx\Documents\Ranorex\RanorexStudio Projects\Dyno\Dyno\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.291"
+			timeRelativeToTestModuleStartTime="00:06.291"
+			timeWallClock="12:56:33"
+			time="00:06.291"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardFinanceAndOperations.PrimaryConductor.Email' at 63;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']/form[3]/div[5]/div/div[2]/div[2]/div[1]/div[4]/div/div[2]/div/div/div/div[1]/div[2]/div/div[1]/div[2]/div/div[3]/div[3]//div[@innertext='Email']"
+				itempath="form[3]/div[5]/div/div[2]/div[2]/div[1]/div[4]/div/div[2]/div/div/div/div[1]/div[2]/div/div[1]/div[2]/div/div[3]/div[3]//div[@innertext='Email']"
+				fullname="DynoRepository.DashboardFinanceAndOperations.PrimaryConductor.Email"
+				id="7c5208fd9e7140d6b577830d332d48ed"
+				timeout="90000"
+				codefile="C:\Users\userx\Documents\Ranorex\RanorexStudio Projects\Dyno\Dyno\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.892"
+			timeRelativeToTestModuleStartTime="00:07.892"
+			timeWallClock="12:56:34"
+			time="00:07.892"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'm.abdulqayyum{Return}' with focus on 'DashboardFinanceAndOperations'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='faras.afras.sa']"
+				itempath="/dom[@domain='faras.afras.sa']"
+				fullname="DynoRepository.DashboardFinanceAndOperations.Self"
+				id="d0134e65a6474eb5a587ed8458f88c29"
+				timeout="30000"
+				codefile="C:\Users\userx\Documents\Ranorex\RanorexStudio Projects\Dyno\Dyno\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.435"
+			timeRelativeToTestModuleStartTime="00:08.435"
+			timeWallClock="12:56:35"
+			time="00:08.435"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardFinanceAndOperations.PrimaryConductor.Text' at 25;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']/form[3]/div[5]/div/div[2]/div[2]/div[1]/div[4]/div/div[2]/div/div/div/div[1]/div[3]/div/div/div[1]/div[2]/div/div[1]//input[@type='text']"
+				itempath="form[3]/div[5]/div/div[2]/div[2]/div[1]/div[4]/div/div[2]/div/div/div/div[1]/div[3]/div/div/div[1]/div[2]/div/div[1]//input[@type='text']"
+				fullname="DynoRepository.DashboardFinanceAndOperations.PrimaryConductor.Text"
+				id="7a7c8e6d569a4961afee61bb14d59d65"
+				timeout="90000"
+				codefile="C:\Users\userx\Documents\Ranorex\RanorexStudio Projects\Dyno\Dyno\Recording1.cs"
+				codeline="99"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.246"
+			timeRelativeToTestModuleStartTime="00:09.246"
+			timeWallClock="12:56:36"
+			time="00:09.246"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_bd78ed83\Recordin_bd78ed83_89e6035d_trace.jpg"
+			errthumb="images_Recordin_bd78ed83\Recordin_bd78ed83_89e6035d_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'DashboardFinanceAndOperations.SpanTagWQ' at 8;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='faras.afras.sa']//button[#'UserBtn']/span[@innertext='WQ']"
+				itempath=".//button[#'UserBtn']/span[@innertext='WQ']"
+				fullname="DynoRepository.DashboardFinanceAndOperations.SpanTagWQ"
+				id="16ef50d4a74243aa9aeb4ad28c04d318"
+				timeout="60000"
+				codefile="C:\Users\userx\Documents\Ranorex\RanorexStudio Projects\Dyno\Dyno\Recording1.cs"
+				codeline="103"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.794"
+			timeRelativeToTestModuleStartTime="00:09.794"
+			timeWallClock="12:56:36"
+			time="00:09.794"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_bd78ed83\Recordin_bd78ed83_c21885ca_trace.jpg"
+			errthumb="images_Recordin_bd78ed83\Recordin_bd78ed83_c21885ca_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'DashboardFinanceAndOperations.SignOutLabel' at 39;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='faras.afras.sa']//span[#'SignOut_label']"
+				itempath=".//span[#'SignOut_label']"
+				fullname="DynoRepository.DashboardFinanceAndOperations.SignOutLabel"
+				id="5cb6fc7d3ce449458667a30c4105b69c"
+				timeout="60000"
+				codefile="C:\Users\userx\Documents\Ranorex\RanorexStudio Projects\Dyno\Dyno\Recording1.cs"
+				codeline="107"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.871"
+			timeRelativeToTestModuleStartTime="00:09.871"
+			timeWallClock="12:56:36"
+			time="00:09.871"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\userx\Documents\Ranorex\RanorexStudio Projects\Dyno\Dyno\Recording1.cs"
+				codeline="108"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.900"
+			timeRelativeToTestModuleStartTime="00:09.900"
+			timeWallClock="12:56:36"
+			time="00:09.900"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_bd78ed83\Recordin_bd78ed83_6bc7b832_trace.jpg"
+			errthumb="images_Recordin_bd78ed83\Recordin_bd78ed83_6bc7b832_trace_thumb.jpg">
+			<message>
+				Element is not visible in the UI and thus click can't be perfomed.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click(Location location)
+   at Dyno.Recording1.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\userx\Documents\Ranorex\RanorexStudio Projects\Dyno\Dyno\Recording1.cs:line 108
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\userx\Documents\Ranorex\RanorexStudio Projects\Dyno\Dyno\Recording1.cs"
+				codeline="108"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

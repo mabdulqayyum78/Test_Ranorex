@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ad75ee61-b473-4773-a7ba-b836645b8887"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="Dyno">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="b4717562-0394-4498-9318-194c8573cd75">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="727b9b35-ce08-4cb6-95d6-2f0f73092b00"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="75eb78b3-52fa-4459-9ed0-dac9e9a1a327"
+	name="DynoRepository"
+	relativepath="DynoRepository.rxrep">
+		<codegen
+		classname="DynoRepository"
+		namespace="Dyno">
+		</codegen>
+		<rootfolder
+		id="832833ec-76fc-437a-ac13-2166a0a73879"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

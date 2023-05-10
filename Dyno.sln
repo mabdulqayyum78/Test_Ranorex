@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 10.5.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dyno", "Dyno\Dyno.csproj", "{7309E607-CB06-441A-8CB8-8504F922EB8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{99300452-5BBA-4664-AD95-C2AF9342CDE5}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7309E607-CB06-441A-8CB8-8504F922EB8F}.Debug|x86.Build.0 = Debug|x86
+		{7309E607-CB06-441A-8CB8-8504F922EB8F}.Debug|x86.ActiveCfg = Debug|x86
+		{7309E607-CB06-441A-8CB8-8504F922EB8F}.Release|x86.Build.0 = Release|x86
+		{7309E607-CB06-441A-8CB8-8504F922EB8F}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

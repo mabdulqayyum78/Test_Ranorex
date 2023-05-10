@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Dyno"
+      id="ffd9237b-8cba-4fa6-ab9f-888c5d76aa8a"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Dyno"
+      id="ffd9237b-8cba-4fa6-ab9f-888c5d76aa8a"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

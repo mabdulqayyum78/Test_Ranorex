@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dyno</name>
+    </assembly>
+    <members>
+        <member name="T:Dyno.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Dyno.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the DynoRepository repository.
+            </summary>
+        </member>
+        <member name="M:Dyno.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Dyno.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Dyno.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Dyno.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Dyno.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Dyno.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Dyno.DynoRepository">
+            <summary>
+            The class representing the DynoRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the DynoRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Dyno.DynoRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepository.DashboardFinanceAndOperations">
+            <summary>
+            The DashboardFinanceAndOperations folder.
+            </summary>
+        </member>
+        <member name="T:Dyno.DynoRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Dyno.DynoRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Dyno.DynoRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Dyno.DynoRepositoryFolders.DashboardFinanceAndOperationsAppFolder">
+            <summary>
+            The DashboardFinanceAndOperationsAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Dyno.DynoRepositoryFolders.DashboardFinanceAndOperationsAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DashboardFinanceAndOperations  folder.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.DashboardFinanceAndOperationsAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.DashboardFinanceAndOperationsAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.DashboardFinanceAndOperationsAppFolder.SpanTagWQ">
+            <summary>
+            The SpanTagWQ item.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.DashboardFinanceAndOperationsAppFolder.SpanTagWQInfo">
+            <summary>
+            The SpanTagWQ item info.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.DashboardFinanceAndOperationsAppFolder.SignOutLabel">
+            <summary>
+            The SignOutLabel item.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.DashboardFinanceAndOperationsAppFolder.SignOutLabelInfo">
+            <summary>
+            The SignOutLabel item info.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.DashboardFinanceAndOperationsAppFolder.PrimaryConductor">
+            <summary>
+            The PrimaryConductor folder.
+            </summary>
+        </member>
+        <member name="T:Dyno.DynoRepositoryFolders.PrimaryConductorFolder">
+            <summary>
+            The PrimaryConductorFolder folder.
+            </summary>
+        </member>
+        <member name="M:Dyno.DynoRepositoryFolders.PrimaryConductorFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PrimaryConductor  folder.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.PrimaryConductorFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.PrimaryConductorFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.PrimaryConductorFolder.AutoTile">
+            <summary>
+            The AutoTile item.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.PrimaryConductorFolder.AutoTileInfo">
+            <summary>
+            The AutoTile item info.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.PrimaryConductorFolder.Email">
+            <summary>
+            The Email item.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.PrimaryConductorFolder.EmailInfo">
+            <summary>
+            The Email item info.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.PrimaryConductorFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.PrimaryConductorFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.PrimaryConductorFolder.SystemAdministration">
+            <summary>
+            The SystemAdministration item.
+            </summary>
+        </member>
+        <member name="P:Dyno.DynoRepositoryFolders.PrimaryConductorFolder.SystemAdministrationInfo">
+            <summary>
+            The SystemAdministration item info.
+            </summary>
+        </member>
+        <member name="T:Dyno.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Dyno.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the DynoRepository repository.
+            </summary>
+        </member>
+        <member name="M:Dyno.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Dyno.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Dyno.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Dyno.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Dyno.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Dyno.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Dyno.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Dyno.Recording1.repo">
+            <summary>
+            Holds an instance of the DynoRepository repository.
+            </summary>
+        </member>
+        <member name="M:Dyno.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Dyno.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Dyno.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Dyno.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Dyno.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Dyno.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,155 @@
+﻿<repository
+id="75eb78b3-52fa-4459-9ed0-dac9e9a1a327"
+name="DynoRepository">
+	<codegen
+	classname="DynoRepository"
+	namespace="Dyno">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="832833ec-76fc-437a-ac13-2166a0a73879"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="727b9b35-ce08-4cb6-95d6-2f0f73092b00"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="d0134e65-a647-4eb5-a587-ed8458f88c29"
+		isrooted="True"
+		name="DashboardFinanceAndOperations"
+		refimgid="e8126f27-d1b7-4a42-9426-2f172cf7a9aa"
+		refpath="/dom[@domain='faras.afras.sa']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="16ef50d4-a742-43aa-9aeb-4ad28c04d318"
+			name="SpanTagWQ"
+			refimgid="6177b0a0-8723-473f-a7ed-6ab29048e2b8"
+			refpath="/dom[@domain='faras.afras.sa']//button[#'UserBtn']/span[@innertext='WQ']"
+			robustPath="/dom[@domain='faras.afras.sa']//button[#'UserBtn']/span[@innertext='WQ']"
+			searchtimeout="30000ms">
+				/dom[@domain='faras.afras.sa']//button[#'UserBtn']/span[@innertext='WQ']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="5cb6fc7d-3ce4-4945-8667-a30c4105b69c"
+			name="SignOutLabel"
+			refimgid="b55d1cdf-8dcf-4e78-b4a5-b42f78123483"
+			refpath="/dom[@domain='faras.afras.sa']//span[#'SignOut_label']"
+			robustPath="/dom[@domain='faras.afras.sa']//span[#'SignOut_label']"
+			searchtimeout="30000ms">
+				/dom[@domain='faras.afras.sa']//span[#'SignOut_label']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="c61c95b3-7c95-4743-8c3a-c2bdd939f342"
+			isrooted="True"
+			name="PrimaryConductor"
+			refpath="/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="b7173c58-0d33-41f3-bfcd-d9e94c5ad35a"
+				name="AutoTile"
+				refimgid="8616ad18-627b-476d-9647-3ab4c3c26780"
+				refpath="/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']/form[2]/div[5]/div/div[2]/div[2]/div/div/div[2]/div"
+				robustPath="/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']/form[2]/div[5]/div/div[2]/div[2]/div/div/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']/form[2]/div[5]/div/div[2]/div[2]/div/div/div[2]/div
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="7c5208fd-9e71-40d6-b577-830d332d48ed"
+				name="Email"
+				refimgid="ace1e5a4-d98e-4cdd-a3bd-14153c0c6d52"
+				refpath="/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']/form[3]/div[5]/div/div[2]/div[2]/div[1]/div[4]/div/div[2]/div/div/div/div[1]/div[2]/div/div[1]/div[2]/div/div[3]/div[3]/div/div/div/div/div[@innertext='Email']"
+				robustPath="/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']//div[@innertext='Email']"
+				searchtimeout="30000ms">
+					/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']/form[3]/div[5]/div/div[2]/div[2]/div[1]/div[4]/div/div[2]/div/div/div/div[1]/div[2]/div/div[1]/div[2]/div/div[3]/div[3]//div[@innertext='Email']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="7a7c8e6d-569a-4961-afee-61bb14d59d65"
+				name="Text"
+				refimgid="59954797-37e0-47e0-b84f-2252767327c3"
+				refpath="/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']/form[3]/div[5]/div/div[2]/div[2]/div[1]/div[4]/div/div[2]/div/div/div/div[1]/div[3]/div/div/div[1]/div[2]/div/div[1]/div/div/div/div/div/div/input[@type='text']"
+				robustPath="/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']//input[@value='M.AbdulQayyum']"
+				searchtimeout="30000ms">
+					/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']/form[3]/div[5]/div/div[2]/div[2]/div[1]/div[4]/div/div[2]/div/div/div/div[1]/div[3]/div/div/div[1]/div[2]/div/div[1]//input[@type='text']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="d0a11512-5a1f-4c74-a7f5-6e25df58fb14"
+				name="SystemAdministration"
+				refimgid="0a2be8fe-6afb-4d90-b970-48610e38336b"
+				refpath="/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']/form/div[4]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div/span[@innertext='System administration']"
+				robustPath="/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']//span[@innertext='System administration']"
+				searchtimeout="30000ms">
+					/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']/form[@action='javascript:void(0)']/div[4]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div[2]/?/?/span[@innertext='System administration']
+				</item>
+				<basepath>
+					/dom[@domain='faras.afras.sa']//div[#'PrimaryConductor']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='faras.afras.sa']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
